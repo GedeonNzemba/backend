@@ -40,8 +40,9 @@ app.use(cookieParser());
 app.use("/api", routes);
 app.use('/api/dashboard', dashboardRouter);
 
+
  // @ts-ignore
-// app.use("/api/upload", router_upload);
+// app.use("/api/upload", router_upload)
 
 
 app.listen(3001, () => {
